@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    let string = `tratatat`;
+    let letter = `t`;
+
+    function letterCounter(str) {
+        let counter = 0;
+        for (let i = 0; i <= string.length; i++) {
+            if (string[i] == letter) counter++;
+        }
+        console.log(`Number of repetitions: ${counter}`);
+    }
+    console.log(`What word?:${string}`);
+    console.log(`What letter to consider?:${letter}`);
+    
+    letterCounter(string);
+</script></html>
